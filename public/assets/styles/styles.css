@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-family: 'Onest Variable','Roboto' system-ui, sans-serif;
+    background: linear-gradient(to bottom, #999999, #FFFFFF);
+    width: 100vw;
+    height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  border: 0.2rem solid #5f5f5b;
+  width: 20vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 2.5vw;
+  border-radius: 2.5rem;
+  background: linear-gradient(to bottom, #999999, #FFFFFF);
+  /*background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);*/
+  /*background: radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))*/
+}
+
+.perfil-image {
+  border-radius: 100%;
+  margin: 0 auto;
+  border: 0.2rem solid #5f5f5b;
+  width: 10vw;
+  height: 20vh;
+  margin-top: 2vh;
+  margin-left: 5vw;
+}
+
+.section-header {
+  width: 70vw;
+  margin-top: 1.5rem;
+  margin-left: 3vw;
+  margin-right: 2.5vw;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.role-name{
+  font-family: 'Roboto', sans-serif;
+  color: #636363;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 1.8vw;
+  margin-top: 1.313rem;
+}
+
+.icon-contact {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.2vw;
+}
+
+li {
+  list-style: none;
+}
+
+.image-container{
+  display: flex;
+  background-color: #5f5f5b;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.section-header-secondary{
+  width: 70vw;
+  margin-top: 2.083vw;
+  margin-left: 3vw;
+  margin-right: 2.5vw;
+}
+
+.label-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.573vw;
+}
+
+.labels-contact{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #636363;
+  white-space: nowrap;
+}
+
+.container-contact--links {
+  display: inline-block;
+}
+
+.image-link--linkedin{
+  width: 2.604vw;
+  height: 2.604vw;
+  margin-top: 1.9vw;
+  margin-left: 3.958vw;
+}
+
+.image-link--github{
+  width: 2.604vw;
+  height: 2.604vw;
+  margin-top: 1.9vw;
+  margin-left: 1.25vw;
+}
