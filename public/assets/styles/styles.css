@@ -2,117 +2,145 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Onest Variable', 'Roboto' system-ui, sans-serif;
 }
 
-html {
-    font-family: 'Onest Variable','Roboto' system-ui, sans-serif;
-    background: linear-gradient(to bottom, #999999, #FFFFFF);
-    width: 100vw;
-    height: 100vh;
-}
-
-aside {
+.main {
   display: flex;
   flex-direction: row;
-  border: 0.2rem solid #5f5f5b;
-  width: 20vw;
-  height: 80vh;
-  margin-top: 10vh;
-  margin-left: 2.5vw;
-  border-radius: 2.5rem;
-  background: linear-gradient(to bottom, #999999, #FFFFFF);
-  /*background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);*/
-  /*background: radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))*/
+  font-family: 'Onest Variable', 'Roboto' system-ui, sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: #FFFFFF;
 }
 
-.perfil-image {
-  border-radius: 100%;
-  margin: 0 auto;
-  border: 0.2rem solid #5f5f5b;
-  width: 10vw;
-  height: 20vh;
-  margin-top: 2vh;
-  margin-left: 5vw;
-}
-
-.section-header {
-  width: 70vw;
-  margin-top: 1.5rem;
-  margin-left: 3vw;
-  margin-right: 2.5vw;
-  align-items: center;
-}
-
-.name {
-  display: flex;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.role-name{
-  font-family: 'Roboto', sans-serif;
-  color: #636363;
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-left: 1.8vw;
-  margin-top: 1.313rem;
-}
-
-.icon-contact {
-  width: 3rem;
-  height: 3rem;
-  margin-left: 0.2vw;
-}
-
-li {
-  list-style: none;
-}
-
-.image-container{
-  display: flex;
-  background-color: #5f5f5b;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 100%;
-  align-items: center;
-  margin-top: 2.5rem;
-}
-
-.section-header-secondary{
-  width: 70vw;
-  margin-top: 2.083vw;
-  margin-left: 3vw;
-  margin-right: 2.5vw;
-}
-
-.label-container{
+.main__content {
   display: flex;
   flex-direction: column;
-  margin-left: 0.573vw;
+  width: 50vw;
+  height: fit-content;
+  margin-left: 30vw;
+  margin-top: 5vh;
+  /*border: 1px solid black;*/
 }
 
-.labels-contact{
-  font-size: 1.5rem;
+.main__aside {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  height: 80vh;
+  margin: 10vh auto 10vh 2.5vw;
+  padding: 10px;
+  border-radius: 5%;
+  background: linear-gradient(to bottom, #999999, #FFFFFF);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container__personal--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+
+  & .name {
+    font-weight: bold;
+    color: #494343;
+  }
+
+  & .rol {
+    font-weight: 500;
+    color: #494343;
+  }
+
+}
+
+.contact__photo {
+  width: 60%;
+  height: 32%;
+  padding: 0.5rem;
+  border-radius: 100%;
+}
+
+.container__info {
+  display: flex;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+}
+
+.container__info--icon {
+  border-radius: 100%;
+  background-color: #494343;
+  align-items: center;
+  height: 15%;
+  width: 15%;
+  margin-top: 0.2rem;
+
+  & img {
+    transform: translateY(5%);
+    width: 100%;
+  }
+}
+
+.container__data {
+  display: flex;
+  flex-direction: column;
   font-weight: bold;
-  color: #636363;
-  white-space: nowrap;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  color: #494343;
 }
 
-.container-contact--links {
-  display: inline-block;
+.container__links {
+  display: flex;
+  flex-direction: row;
+
+  & a img {
+    width: 2.604vw;
+    height: 2.604vw;
+    margin-top: 1.9vw;
+    margin-left: 3.958vw;
+  }
 }
 
-.image-link--linkedin{
-  width: 2.604vw;
-  height: 2.604vw;
-  margin-top: 1.9vw;
-  margin-left: 3.958vw;
-}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 5%;
+  background: #FFFFFF;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-.image-link--github{
-  width: 2.604vw;
-  height: 2.604vw;
-  margin-top: 1.9vw;
-  margin-left: 1.25vw;
+  & .card__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    & .card__tag {
+      background: green;
+      font-weight: bold;
+      border-radius: 10%;
+      padding: 0.2rem;
+    }
+  }
+
+  & .card__description {
+    margin-top: 1.2rem;
+  }
+
+  & .card__video {
+    margin: 0 auto;
+  }
 }
