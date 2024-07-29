@@ -42,4 +42,8 @@
         background-color: transparent;
         opacity: .9;
     }
+
+    .about__text{
+        text-align: justify;
+    }
 }
