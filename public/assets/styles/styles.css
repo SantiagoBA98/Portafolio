@@ -115,7 +115,7 @@
 .projects{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 1.25rem;
   width: 100%;
 }
 
@@ -188,14 +188,14 @@
   }
 
   & .card__tag:hover {
-    padding: 0.4rem;
+    padding: 0.5rem;
     opacity: .9;
   }
 
   & .about__text {
     text-wrap: pretty;
-    line-height: 28px;
-    font-size: 20px;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
     opacity: .9;
   }
 
@@ -204,6 +204,7 @@
     margin-top: 0.5rem;
     color: #000c;
     font-weight: bold;
+    font-size: 2rem;
 
   }
 

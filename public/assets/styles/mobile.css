@@ -1,0 +1,46 @@
+@media(max-width: 1130px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Onest Variable', system-ui, sans-serif;
+    }
+
+    .main {
+        margin: 0 auto;
+    }
+
+
+    .main__aside {
+        display: none;
+    }
+
+    .main__content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        margin-left: 10vw;
+        margin-top: 10vh;
+    }
+
+    .container__about {
+        width: 90vw;
+        margin-right: 1rem;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        overflow: auto;
+        background-color: transparent;
+        opacity: .9;
+    }
+}
