@@ -1,25 +1,87 @@
 ---
+import VisualIcon from "src/icons/visual-icon.astro";
+
 const { video, title, description, state } = Astro.props;
 ---
 
-<div class="card">
-    <div class="card__header">
-        <h3 class="card__title">Portafolio</h3>
-        <span class="card__tag">Finalizado</span>
+<div class="titles__sections">
+    <VisualIcon />
+    <h1 class="h__welcome">Proyectos</h1><br />
+</div>
+<div class="projects">
+    <div class="card">
+        <div class="card__header">
+            <h3 class="card__title">Portafolio</h3>
+            <span class="card__tag">Finalizado</span>
+        </div>
+
+        <div class="card__description">
+            <p class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+                doloremque animi quia laborum perspiciatis eius consectetur
+                aperiam expedita! Sit fugiat vero quae ipsum dicta unde enim,
+                rem voluptate. Possimus, ab!
+            </p>
+        </div>
+        <video controls muted autoplay loop class="video">
+            <source src="/assets/videos/godofwar.mp4" type="video/mp4" />
+        </video>
     </div>
 
-    <div class="card__description">
-        <p class="description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
-            doloremque animi quia laborum perspiciatis eius consectetur aperiam
-            expedita! Sit fugiat vero quae ipsum dicta unde enim, rem voluptate.
-            Possimus, ab!
-        </p>
+    <div class="card">
+        <div class="card__header">
+            <h3 class="card__title">Portafolio</h3>
+            <span class="card__tag">Finalizado</span>
+        </div>
+
+        <div class="card__description">
+            <p class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+                doloremque animi quia laborum perspiciatis eius consectetur
+                aperiam expedita! Sit fugiat vero quae ipsum dicta unde enim,
+                rem voluptate. Possimus, ab!
+            </p>
+        </div>
+        <video controls muted autoplay loop class="video">
+            <source src="/assets/videos/godofwar.mp4" type="video/mp4" />
+        </video>
     </div>
 
-    <div class="card__video">
-        <video controls muted autoplay loop height="250" width="400"> 
-            <source src="/assets/videos/godofwar.mp4" type="video/mp4">
+    <div class="card">
+        <div class="card__header">
+            <h3 class="card__title">Portafolio</h3>
+            <span class="card__tag">Finalizado</span>
+        </div>
+
+        <div class="card__description">
+            <p class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+                doloremque animi quia laborum perspiciatis eius consectetur
+                aperiam expedita! Sit fugiat vero quae ipsum dicta unde enim,
+                rem voluptate. Possimus, ab!
+            </p>
+        </div>
+        <video controls muted autoplay loop class="video">
+            <source src="/assets/videos/godofwar.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <div class="card">
+        <div class="card__header">
+            <h3 class="card__title">Portafolio</h3>
+            <span class="card__tag">Finalizado</span>
+        </div>
+
+        <div class="card__description">
+            <p class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+                doloremque animi quia laborum perspiciatis eius consectetur
+                aperiam expedita! Sit fugiat vero quae ipsum dicta unde enim,
+                rem voluptate. Possimus, ab!
+            </p>
+        </div>
+        <video controls muted autoplay loop class="video">
+            <source src="/assets/videos/godofwar.mp4" type="video/mp4" />
         </video>
     </div>
 </div>
