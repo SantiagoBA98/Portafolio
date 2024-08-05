@@ -294,8 +294,10 @@
     transform: translateY(-2.5%);
 
     & .p__experiencie {
-      text-align: justify;
-      line-height: 1.75rem;
+      text-wrap: pretty;
+      line-height: 1.6rem;
+      margin-right: 1rem;
+      margin-top: 0;
       font-size: 1rem;
       opacity: .9;
     }
