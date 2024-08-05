@@ -43,7 +43,26 @@
         opacity: .9;
     }
 
-    .about__text{
+    .about__text {
         text-align: justify;
     }
+
+    .container__text--experience {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: fit-content;
+    }
+
+    .experience__line {
+        position: relative;
+        width: 2px;
+        height: 230px;
+        background-color: #999999;
+      }
+
+      .experience__text{
+        justify-content: center;
+        margin-right: 5rem;
+      }
 }
